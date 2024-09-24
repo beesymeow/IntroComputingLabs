@@ -28,7 +28,7 @@ function draw() {
     }
     for(let i=0; i < 8;i++){
       xSquare += sizeSquare;
-      square(xSquare + 80, ySquare,  sizeSquare);bbbbbbbb
+      square(xSquare + 80, ySquare,  sizeSquare);
       if((i * 3) % 2){
         fill("white");
       }else{
